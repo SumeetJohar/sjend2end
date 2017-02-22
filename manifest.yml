@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sjend2end
+  host: sjend2end
+  disk_quota: 1024M
+  services:
+  - sjend2end-cloudantNoSQLDB
+  - sjend2end-iotf-service
